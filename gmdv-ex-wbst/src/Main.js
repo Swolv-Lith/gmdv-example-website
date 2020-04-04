@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Main extends Component {
+  
 	render() {
 		return(
-			<div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+      <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
   <ol className="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -12,24 +13,27 @@ class Main extends Component {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./img/head.jpeg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src="https://picsum.photos/id/282/1400/500" className="d-block w-auto" alt="..."/>
+      <div className="carousel-caption d-none d-inline">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="./img/head-2.jpeg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src="https://picsum.photos/id/229/1400/500" className="d-block w-auto" alt="..."/>
+      <div className="carousel-caption d-none d-inline">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="./img/head-3.jpeg" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      <img src="https://picsum.photos/id/227/1400/500" className="d-block w-auto" alt="..."/>
+      <div className="carousel-caption d-none d-inline">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
     </div>
   </div>
@@ -41,8 +45,9 @@ class Main extends Component {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="sr-only">Next</span>
   </a>
-</div>					
+</div>
 		)
-	}
+  }
 }
+
 export default Main
