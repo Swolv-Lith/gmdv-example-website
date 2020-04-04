@@ -15,7 +15,7 @@ class Main extends Component {
     <div className="carousel-item active">
       <img src="https://picsum.photos/id/282/1400/500" className="d-block w-auto" alt="..."/>
       <div className="carousel-caption d-none d-inline">
-        <h5>First slide label</h5>
+        <h5>Original Games</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
@@ -23,7 +23,7 @@ class Main extends Component {
     <div className="carousel-item">
       <img src="https://picsum.photos/id/229/1400/500" className="d-block w-auto" alt="..."/>
       <div className="carousel-caption d-none d-inline">
-        <h5>Second slide label</h5>
+        <h5>Mod Gallery</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
@@ -31,7 +31,7 @@ class Main extends Component {
     <div className="carousel-item">
       <img src="https://picsum.photos/id/227/1400/500" className="d-block w-auto" alt="..."/>
       <div className="carousel-caption d-none d-inline">
-        <h5>Third slide label</h5>
+        <h5>Fan Made Gallery</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         <button className='btn btn-secondary'>Find the Gallery</button>
       </div>
